@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Clock from './clock';
 import Counter from './test';
+import Body from './body';
 
 // class Clock extends Component(){
 //     constructor(props){
@@ -35,4 +36,5 @@ class MClock extends Component{
 // ReactDOM.render(<Counter/>, document.getElementById('root'));
 // ReactDOM.render( < App / > , document.getElementById('root'));
 // ReactDOM.render( < MClock / > , document.getElementById('root'));
-ReactDOM.render( < Clock / > , document.getElementById('root'));
+// ReactDOM.render( < Clock / > , document.getElementById('root'));
+ReactDOM.render( < Body / > , document.getElementById('root'));
